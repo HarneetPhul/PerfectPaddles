@@ -1,0 +1,94 @@
+
+@font-face {
+    font-family: "karla-bold";
+    src: url(fonts/Karla-Bold.ttf);
+}
+
+@font-face{
+
+font-family: "Pacifico";
+src: url(fonts/Pacifico.ttf);
+}
+@font-face{
+
+font-family: "Karla-Regular";
+src: url(fonts/Karla-Regular.ttf);
+}
+.color{
+background-color: black;
+background-size: contain;
+background-position: center center;
+background-repeat: no-repeat;
+z-index: 92;
+max-width: 960px;
+margin: 0 auto;
+}
+.container {
+max-width: 960px;
+margin: 0 auto;
+/*backgorund-color: rgba(0,0,0,0,4);*/
+border: 1-x solid deeppink;
+background-color: grey;
+/*rgba(255,123,34,46);*/
+/*background-image: url("images/sunset-kayak.jpg");
+*/
+background-size: contain;
+background-position: center center;
+background-repeat: no-repeat;
+z-index: 92;
+}
+.linkcolor
+{
+  textcolor: white;
+
+
+}
+.fonttext{
+font-family: "Karla-Regular";
+}
+.pos{
+position:relative;
+
+}
+.header{
+
+position:absolute;
+top:10px;
+left:20px;
+
+}
+h1 {font-family: "karla-bold";}
+h1.paddles{
+
+  background-color: black;
+  color: white;
+}
+img {
+max-width: 100%;
+}
+.banner{
+background-color: #00e5ff;
+}
+.btn-signup{
+background-color: #E2574C;
+border: 2px solid;
+border-radius: 25px;
+padding: 5px 14px;
+color: white;
+font-family:arial:
+font-size: 14;
+display: inline-block;
+}
+.heading {
+font-style:oblique;
+text-transform: lowercase;
+color: #646464;
+font-family: "Pacifico";
+/*font-family:Trattatello ;*/
+font-size: 200%;
+}
+/*@media (min-width: 1100px){
+body{
+background-color: rebeccapurple;
+}*/
+}
