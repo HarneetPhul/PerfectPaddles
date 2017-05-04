@@ -21,14 +21,13 @@ background-position: center center;
 background-repeat: no-repeat;
 z-index: 92;
 max-width: 960px;
-margin: 0 auto;
 }
 .container {
 max-width: 960px;
 margin: 0 auto;
 /*backgorund-color: rgba(0,0,0,0,4);*/
 border: 1-x solid deeppink;
-background-color: grey;
+background-color: white;
 /*rgba(255,123,34,46);*/
 /*background-image: url("images/sunset-kayak.jpg");
 */
@@ -37,15 +36,173 @@ background-position: center center;
 background-repeat: no-repeat;
 z-index: 92;
 }
+/* .hero
+  /*background-image: url("images/kayak-bkgd.jpg");
+  height: 20%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+
+
+ width: 100%;
+ height: 320px;
+
+background-position: center;
+background-size: cover;
+ margin: 1 rem auto;
+ position: relative;
+ display:inline;
+ padding-left:
+
+ background-size: cover;
+ box-sizing: border-box;
+}
+.text{
+  text-align: center;
+      position: relative;
+
+      transform: translate(-50%, -50%);
+
+
+
+ background:rgba(255,255,255,0.5);
+ transform:translateY(-50%);
+ top: 50%;
+ left: 50%;
+ line-height: 22px;
+ color: #fefefe;
+ text-shadow: 1px 1px 2px #0a0a0a;
+}*/
+
+
+
+
+
+/*.hero{
+
+  width: 1276px;
+  max-width: 100%;
+   height: 1238px;
+  background-position: center;
+  background-size: cover;
+   margin: 1 rem auto;
+   display:inline;
+   padding-top: -3.5em;
+   position:relative;
+   padding-right:0em;
+   padding-left:-3em;
+   background-size: cover;
+   box-sizing: border-box;
+
+
+}
+
+.text{
+
+  text-align: center;
+        /*position: relative;*/
+
+        /*transform: translate(-50%, -50%);
+
+   background:rgba(255,255,255,0.5);
+   /*transform:translateY(-50%);*/
+   /*top: 50%;
+   left: 50%;*/
+   /*line-height: 22px;
+   color: #fefefe;
+   /*text-shadow: 1px 1px 2px #0a0a0a;
+   line-height: 92px;
+   margin:-1px;
+   border: 0px;
+   padding:0px;
+   padding-top: 0px;
+   padding-right: 0px;
+   padding-bottom: 0px;
+   padding-left: 0px;
+   font-size: 10px;
+
+   margin-top: 10px;
+   margin-bottom: 10px;
+
+
+}*/
+
+.hero{
+
+  /*background-image: url("images/kayak-bkgd.jpg");
+  height: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;*/
+
+
+ width: 100%;
+ height: 1191px;
+
+background-position: center;
+background-size: cover;
+ margin: 1 rem auto;
+ position: relative;
+ display:inline;
+ padding-top: 0.5em;
+
+ background-size: cover;
+ box-sizing: border-box;
+
+}
+ .text{
+  text-align: center;
+      position: relative;
+
+      /*transform: translate(-50%, -50%);*/
+
+
+
+ background:rgba(255,255,255,0.5);
+ transform:translateY(-21%);
+ /*top: 50%;
+ left: 50%;*/
+ /*line-height: 22px;*/
+ color: #fefefe;
+ text-shadow: 30px 26px 45px #0a0a0a;
+ line-height: 90px;
+ margin:-567px;
+ border: 13px;
+ padding: -11px;
+
+
+ padding-top: -101px;
+ padding-right: 131px;
+ padding-bottom: -100px;
+ padding-left: 79px;
+ font-size: 42px;
+
+
+}
+
+.great{
+
+  font-family: "Pacifico";
+
+  font-style: italic;
+  font-size:3em;
+
+
+}
+
+.rent{
+
+text-shadow: 1px 1px 2px #0a0a0a;
+
+}
 .linkcolor
 {
   textcolor: white;
 
+}
 
-}
-.fonttext{
-font-family: "Karla-Regular";
-}
 .pos{
 position:relative;
 
@@ -65,30 +222,376 @@ h1.paddles{
 }
 img {
 max-width: 100%;
+
+
 }
-.banner{
-background-color: #00e5ff;
-}
+/*.banner{*/
+/*background-color: #00e5ff;
+}*/
 .btn-signup{
-background-color: #E2574C;
+/*background-color: #E2574C;
 border: 2px solid;
 border-radius: 25px;
 padding: 5px 14px;
 color: white;
 font-family:arial:
 font-size: 14;
+display: inline-block;*/
+
+
+background-color: #E2574C;
+border: none;
+border-radius: 25px;
+padding: 33px 89px;
+color: white;
+font-family:arial:
+font-size: 14px;
 display: inline-block;
+font-size: 35px;
+}
+
+}
+.herosection{
+backgroud:url ("images/kayak-bkgd.jpg")
+background-size: cover;
+height: 60vh;
+text-align:center;
+display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  }
+  .hero-section-text {
+  color: #fefefe;
+  text-shadow: 1px 1px 2px #0a0a0a;
 }
 .heading {
+  text-align: center;
 font-style:oblique;
 text-transform: lowercase;
 color: #646464;
 font-family: "Pacifico";
 /*font-family:Trattatello ;*/
-font-size: 200%;
+font-size: 566%;
+padding:2px
+margin:1em;
+padding-top: 84px;
+padding-right:12px;
+padding-bottom:12px ;
+
 }
+.deskwidth{
+
+  /*position: absolute;*/
+   z-index: 2;
+   top: 0px
+   height: 214px;
+   margin: 10px auto 0 auto;
+
+ /*font-size: 28px;
+ text-align: center;*/
+}
+
+.logoimage{
+
+  padding:12 px;
+ position: relative;
+
+
+}
+.navposition{
+
+
+  display: inline-block;
+  float: left;
+  padding: 20px;
+  position: relative;
+  width:50%;
+  bottom: 10px;
+
+
+}
+.colorlink{
+color: #b64036;
+word-wrap: break-word;
+
+
+
+}
+
+p.wrap{
+
+  word-wrap: break-word;
+
+
+}
+
+
+.iframe{
+
+width:100%;
+align:center;
+ height:553px;
+  frameborder:0;
+  padding:78px;
+  padding-left:24px;
+  padding-bottom:35px;
+  padding-top:44px;
+  padding-right:28px;
+
+
+
+
+
+
+
+
+}
+/* Desktop*/
 /*@media (min-width: 1100px){
 body{
 background-color: rebeccapurple;
 }*/
+
+.footercolor{
+  background-color: black;
+  background-size: contain;
+  background-position: center center;
+  background-repeat: no-repeat;
+  z-index: 92;
+  max-width: 960px;
+  color: white;
+  height: 200px;
+  padding:78px;
+  padding-left:24px;
+  padding-bottom:35px;
+  padding-top:44px;
+  padding-right:28px;
+  width:100%;
+  position: relative;
+
+  }
+
+ .heading1{    /*This is for About content positioning*/
+   text-align: center;
+ font-style:oblique;
+ text-transform: lowercase;
+ color: #646464;
+ font-family: "Pacifico";
+ /*font-family:Trattatello ;*/
+ font-size: 566%;
+ padding:2px
+ margin:1em;
+ padding-top: -15px;
+ padding-right:12px;
+ padding-bottom:-12px ;
+ line-height: 17.1em;
+ padding-top: 23px;
+ margin-bottom: 0px;
+
+ }
+
+ .image{
+
+   padding:2px
+   margin:1em;
+   padding-top: -15px;
+   padding-left:0px;
+   padding-right:0px;
+   padding-bottom:22px ;
+   width:100%;
+   height:31%;
+   margin-left: 10px;
+   margin-bottom:10px;
+   margin-right: 10px;
+   margin: auto;
+   margin-left: -16px;
+   margin-top: 10px;
+   margin-bottom: 10px;
+
+
+   }
+
+   .fonttext{
+   font-family: "Karla-Regular";
+   text-align: center;
+   padding-top: 44px;
+   padding-bottom: 44px;
+   font-size: 34px;
+
+   }
+
+.fonttext1{
+
+  font-family: "Karla-Regular";
+  text-align: center;
+  padding-top: 44px;
+  padding-bottom: 44px;
+  font-size: 34px;
+  margin-top: -692px;
+
+
+}
+@media (min-width: 1100px){
+
+.deskwidth{
+ /*font-size:17px;
+  left: 10px;
+  top:10px;
+  display: inline-block;
+  float: left;
+  padding: 10px;
+  /*position: absolute;
+  width:235px;
+  margin: 0%;*/
+  /*display: inline-block;*/
+  left: 10px;
+
+display: inline-block;
+width:240px;
+padding: 10px;
+padding-left: 10px;
+padding-right:10px;
+
+}
+.logoimage{
+
+  font-size:17px;
+   left:178px;
+   top:10px;
+   display: inline-block;
+   float: rightfloat;
+   padding: 9px;
+   padding-left: 10px;
+   padding-right: 10px;
+   /*position: relative;*/
+   /*position: absolute;*/
+   width:50%;
+   margin: 0%;
+
+
+   }
+}
+table.align{
+width:50%;
+padding:15px;
+margin-left: auto;
+margin-right: auto;
+
+}
+
+
+
+
+ /*.desk-width{
+   width: 239px;
+   font-size:28px;
+
+ }*/
+.navposition{
+  right: 10px;
+  top:10px;
+  display: inline-block;
+float: left;
+padding: 20px;
+position: absolute;
+width:50%;
+
+}
+.links {
+  width:100%;
+  height:100%
+  background-color: white;
+}
+.linkcolor {
+
+ float:right;
+ display: inline;
+ padding: 20px;
+ margin-left: -5px;
+ font-size: 50px;
+ text-align: center;
+ margin-top: -83px;
+color:#FFFFFF;
+}
+li.linkcolor{
+
+
+
+}
+.leftfloat{
+  float: left;
+  padding: -7px;
+  width: 50%;
+
+}
+.rightfloat{
+
+
+
+}
+
+.color{
+background-color: black;
+background-size: contain;
+background-position: center center;
+background-repeat: no-repeat;
+z-index: 92;
+max-width: 960px;
+top: 50%;
+left:50%;
+float: center;
+
+}
+
+.image{
+  padding:2px
+  margin:1em;
+  padding-top: -15px;
+  padding-left:17px;
+  padding-right:12px;
+  padding-bottom:22px ;
+  width:100%;
+  height:31%;
+
+
+  }
+.image{
+
+  padding:2px
+  margin:1em;
+  padding-top: -15px;
+  padding-left:17px;
+  padding-right:12px;
+  padding-bottom:22px ;
+  width:100%;
+  height:31%;
+
+}
+
+.fonttext1{
+
+  font-family: "Karla-Regular";
+
+  padding-top: 44px;
+  padding-bottom: 44px;
+  font-size: 34px;
+  margin-top: -692px;
+
+
+}
+
+.linkalign{
+  float: right;
+  vertical-align: middle;
+
+
+}
+
+
 }

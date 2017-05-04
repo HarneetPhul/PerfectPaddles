@@ -1,6 +1,7 @@
-<! DOCTYPE html>
+<!DOCTYPE html>
 <html>
 <head>
+  <link rel="stylesheet" href="reset.css">
   <link rel="stylesheet" href="index.css">
 <title>Perfect Padles</title>
 <meta charset= "utf-8">
@@ -12,8 +13,6 @@
 <body>
 <div class="pos">
 </div>
-
-
   <!--<div>
 
     <audio src="images/player.mp3" controls autoplay loop= "true">
@@ -32,56 +31,102 @@
 </video>-->
 
   </div>
+  <section class="container">
 <header  class="color">
-  <img src="images/perfect-paddles-logo.svg" height="100" alt= "Perfect Paddles Logo" >
+  <div class="deskwidth">
+  <img src="images/perfect-paddles-logo.svg" alt= "Perfect Paddles Logo" class="logoimage"
   <nav>
-    <h1 class="paddles">Perfect Paddles</h1>
-  <ul class="linkcolor">
-    <li><a href= "#about">About</a></li>
-    <li><a href= "#rentals">Rentals</a></li>
-    <li><a href= "#location">Location</a></li>
-  </ul>
+<!--  <div class= "navposition">-->
+    <!--<h1 class="paddles">Perfect Paddles</h1>-->
+        <ul class="links">
+          <li class="linkcolor"><a href= "#about">About</a></li>
+          <li class="linkcolor"><a href= "#rentals">Rentals</a></li>
+          <li class="linkcolor"><a href= "#location">Location</a></li>
+        </ul>
 
+<!--</div>-->
  </nav>
+
+ </div>
+
  </header>
+ </section>
 <main>
 </main>
+
+<!--<section class="container">
+    <div>
+      <img src="images/kayak-bkgd.jpg" class="hero"alt=""/>
+
+      <div class="text">
+        <h1>Enjoy the great outdoor Front the Water</h1>
+        <h5>Rent our canoes year-round, take a lesson, or join a group tour </h5>
+      </div>
+    </div> This is an old code for Hero image- Below is the new one-Chek it out...-->
+    <section class="container">
+      <img src="images/kayak-bkgd.jpg" class="hero" alt="" />
+        <div class="text"><h1>ENJOY THE
+
+        <br><div class="great"> Great Outdoors <br></div><div class="from"><br>from the Water</div></h1>
+            <div class="rent">Rent our canoes year-round,<br>
+            take a lesson, or join a group tour.
+          </div>
+          <button class="btn-signup">SIGN ME UP</button>
+    </div>
+         </section>
+
+  <!--<div class="hero">
+  <div class="text">
+    <h1>Enjoy the great outdoor Front the Water</h1>
+    <p>Rent our canoes year-round, take a lesson, or join a group tour</p>
+    <button class="btn-signup">Sign me up</button>
+  </div>
+</div>-->
+
 <!--<h1 class="paddles">Perfect Paddles</h1>-->
-<section id="banner" class="banner">
+<!--<section id="banner" class="banner">
   <div class= "container">
 
-      <img src="images/kayak-bkgd.jpg" alt="" />
-      <h2>Enjoy the great outdoor Front the Water</h2>
+      <img src="images/kayak-bkgd.jpg" class="hero"alt="" />
+
+  <div class=text>
+    <h2>Enjoy the great outdoor Front the Water</h2>
+   <p> Rent our canoes year-round, take a lesson, or join a group tour</p>
 <button class="btn-signup">Sign me up</button>
-<!--</div>
-  <h1>
+  </div>
+
+</div>
+  <!<h1>-
     <span>Enjoy the</span>
     <span>Great Outdoor</span>
     <span>Front the water</span>
-  </h1>
+  </h1>-->
 <!--<button>Sign me up </button> -->
-
-</div>
-</section>
 <section class="container">
-<h2 class="heading">About</h2>
-<p class="fonttext">
+  <div class="image">
+<h2 class="heading1">About</h2>
+
+<p class="fonttext1">
   Perfect Paddles Kayak Rentals Co. offers you the unique opportunity to experience the great outdoors in one of our single or double kayaks.  We cater to all skill levels and abilities, and offer a variety of lessons and tours too.
 </p>
-<img src="./images/sunset-kayak.jpg" alt="Sunset Kayak">
-<img src="/Users/harneet/Documents/PerfectPaddles-Har/images/coffee-adventure.jpg" alt= "Cup of Coffee">
+<img src="./images/sunset-kayak.jpg" alt="Sunset Kayak" class"left">
+<img src="/Users/harneet/Documents/PerfectPaddles-Har/images/coffee-adventure.jpg" alt= "Cup of Coffee" class="right">
 <img src= "/Users/harneet/Documents/PerfectPaddles-Har/images/girl-in-kayak.jpg" alt="Girl in Kayak">
+</div>
 </section>
 <!-- this code won't show  (this is commenting your code)-->
-<section class="container">
+<section class= "container">
 <h2 class="heading">Rentals</h2>
 <p class="fonttext">
+  <div class=leftfloat>
   All rental prices include basic paddles, life jackets, splash protection, and a safety demonstration.
 
-  Please note that we require 24 hours notice for all cancellations and late returns will be charged accordingly.
-
-  Call 604-604-6040 to book now!
+<br> </br> Please note that we require 24 hours notice for all cancellations and late returns will be charged accordingly.
 <br></br>
+
+  <span class="colorlink">Call 604-604-6040 </span><p class="wrap">to book now!
+  </p>
+</div>
 <style>
 table, th, td
 {
@@ -96,33 +141,35 @@ padding: 10px;
 }
 </style>
 </style>
-  <table>
-   <tr>
+<div>
+  <table class="align">
+   <tr class="rightfloat">
      <th>Duration</th>
      <th>Single Kayak</th>
      <th>Double Kayak</th>
    </tr>
-   <tr>
+   <tr class="rightfloat">
      <td>2 hours</td>
      <td>$35</td>
      <td>$55</td>
    </tr>
-   <tr>
+   <tr class="rightfloat">
     <td>1 Day</td>
     <td>$90</td>
     <td>$130</td>
    </tr>
-   <tr>
+   <tr class="rightfloat">
      <td>Extra Day</td>
      <td>$45</td>
      <td>$65</td>
    </tr>
-   <tr>
+   <tr class"rightfloat">
      <td>Season Pass</td>
      <td>$249</td>
      <td>$349</td>
    </tr>
   </table>
+</div>
 </p>
 </section>
 <section class="container">
@@ -130,37 +177,40 @@ padding: 10px;
 <p class="fonttext">
   Come visit us at our location on Cornwall Avenue and Yew Street in Vancouver:
 </p>
-<iframe src="https://www.google.com/maps/embed?pb=!1m16!1m12!1m3!1d2965.0824050173574!2d-93.63905729999999!3d41.998507000000004!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!2m1!1sWebFilings%2C+University+Boulevard%2C+Ames%2C+IA!5e0!3m2!1sen!2sus!4v1390839289319" width="100%" height="200" frameborder="0" style="border:0"></iframe>
+<iframe src="https://www.google.com/maps/embed?pb=!1m16!1m12!1m3!1d2965.0824050173574!2d-93.63905729999999!3d41.998507000000004!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!2m1!1sWebFilings%2C+University+Boulevard%2C+Ames%2C+IA!5e0!3m2!1sen!2sus!4v1390839289319" class="iframe"></iframe>
 
-<footer>
+<footer class="footercolor">
+  <div>
 <p>
-  ©2017 Perfect Paddles Kayak Co.
+  ©2017 Perfect Paddles Kayak<br>
   Powered by HTML and CSS.
 </p>
 <p>
+  <p>
   <a href="tel:+16046046040">
-  604-604-6040 (tel:// link)</a>, <a href="mail to: info@perfectpaddless.com">info@perfectpaddles.com (mailto: link)</a>
-  Cornwall Avenue & Yew Street
-  Vancouver, BC, Canada
+  <br></br>604-604-6040 (tel:// link)</a>, <a href="mail to: info@perfectpaddless.com">info@perfectpaddles.com (mailto: link)</a></p>
+  <p><br></br>Cornwall Avenue & Yew Street
+  Vancouver, BC, Canada</p>
 <nav>
 <ul>
-  <li
+  <li class="linkalign">
     <a href= "https://facebook.com" target= "_blank">Facebook:</a>
   </li>
-  <li>
+  <li class="linkalign">
     <a href= "https://twitter.com" target= "_blank">Twitter:</a>
   </li>
-  <li>
+  <li class="linkalign">
     <a href= "https://instagram.com" target= "_blank">Instagram:</a>
   </li>
-  <li>
+  <li class="linkalign">
     <a href= "https://pinterest.com" target= "_blank">pinterest:</a>
   </li>
-  <li><a href= " https://plus.google.com" target="_blank">google+:</a></li>
+  <li class="linkalign"><a href= " https://plus.google.com" target="_blank">google+:</a></li>
 <!-- _Target= Blank is to Open a linked document in a new tab or window-->
 </ul>
 </nav>
 </p>
+</div>
 </footer>
 </section>
 </body>
